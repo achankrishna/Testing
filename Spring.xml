@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE connector PUBLIC "-//Sun Microsystems, Inc.//DTD Connector 1.0//EN" "http://java.sun.com/dtd/connector_1_0.dtd" >
+<beans>
+	<bean id="convertor" class="com.services.conversions.CurrencyConvertors"/>
+	<bean id="CurrencyConvController" class="com.services.controller.CurrencyConvController"/>
+	<bean id="CurrencyConvertorService" class="com.services.convertorservice.CurrencyConvertorService"/>
+	<bean id="CurrConvertorData" class="com.services.data.CurrConvertorData"/>
+	<bean id="Constants" class="com.services.utilities.Constants"/>
+</beans>
